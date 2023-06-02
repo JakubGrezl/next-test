@@ -1,0 +1,12 @@
+{
+    "data": [
+        {
+            "name": "Home",
+            "link": "/"
+        },
+        {
+            "name": "Contact",
+            "link": "/contact"
+        }
+    ]
+}
