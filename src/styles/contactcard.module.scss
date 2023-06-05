@@ -1,0 +1,24 @@
+.wrapper {
+    border: white;
+    border-width: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .link-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        border-bottom: 1px solid black;
+
+        Link {
+            display: block;
+            font-size: 2rem;
+            color: black;
+            padding: 20px;
+            text-decoration: none;
+        }
+    }
+}
