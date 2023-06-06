@@ -1,0 +1,37 @@
+[
+    {
+      "title": "Instagram",
+      "href": [
+        {
+          "title": "jakub.grezl",
+          "href": "#"
+        },
+        {
+          "title": "grezl.photos",
+          "href": "#"
+        }
+      ]
+    },
+    {
+      "title": "github",
+      "href": "https://github.com/JakubGrezl"
+    },
+    {
+      "title": "my school",
+      "href": "http://spsul.cz/"
+    },
+    {
+        "title": "Email",
+        "href": [
+          {
+            "title": "jakub.grezl@outlook.cz",
+            "href": "jakub.grezl@outlook.cz"
+          },
+          {
+            "title": "grezl.jakub@gmail.com",
+            "href": "grezl.jakub@gmail.com"
+          }
+        ]
+      }
+]
+  

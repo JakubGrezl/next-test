@@ -1,24 +1,74 @@
+$borders: 2px solid white; 
+$fontsize: 2rem;
+$linkpaddingy: 20px;
+
+
 .wrapper {
-    border: white;
-    border-width: 2px;
+    border: $borders;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 100px;
+    
+    .collapse {
+        width: 100%;
+        text-align: center;
+        border: $borders;
+        font-size: $fontsize;
+        margin: 10px;
+        padding: 5px;
+        text-decoration: none;
+        transition: 0.2s linear;
+        box-sizing: border-box;
+    
+        .innertext {
+            color: white;
+            transition: 0.2s linear;
+        }
+    }
+    .collapsetext {
+        text-align: center;
+        color: white;
+    }
 
-    .link-wrapper {
+    .linkwrapper {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         padding: 10px;
-        border-bottom: 1px solid black;
+        width: 100%;
 
-        Link {
-            display: block;
+        .link {
+            width: 100%;
+            text-align: center;
+            border: $borders;
             font-size: 2rem;
-            color: black;
-            padding: 20px;
+            margin: 10px;
+            padding: 10px;
+            padding-top: $linkpaddingy;
+            padding-bottom: $linkpaddingy;
             text-decoration: none;
+            transition: 0.2s linear;
+            box-sizing: border-box;
+
+            .innertext {
+                color: white;
+                transition: 0.2s linear;
+                font-size: $fontsize;
+            }
+
+            // &:hover {
+            //     background-color: #f9f9f9;
+            //     transition: 0.2s linear;
+                
+
+            //     .innertext:hover {
+            //         color: black;
+            //         transition: 0.2s linear;
+            //     }
+            // }
         }
+
     }
 }
