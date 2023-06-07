@@ -9,7 +9,7 @@ export default function ContactCollapse(props : any) {
     return (
         <Collapse showArrow={false} title={title} className={styles.collapse}>
                 {href.map((item : any) => 
-                    <Link href={item.href}><Text className={styles.innertext}>{item.title}</Text></Link>
+                    <Link key={item.title} href={item.href}><Text className={styles.innertext}>{item.title}</Text></Link>
                 )}  
         </Collapse>
     )

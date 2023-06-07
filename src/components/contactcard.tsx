@@ -12,7 +12,7 @@ export default function ContactCard() {
         if (typeof item.href === "object") {
             return <ContactCollapse href={item.href} title={item.title}/>
         } else 
-        return <Link className={styles.link} href={item.href}><Text className={styles.innertext}>{item.title}</Text></Link>
+        return <Link key={item.title} className={styles.link} href={item.href}><Text className={styles.innertext}>{item.title}</Text></Link>
     }
     
     return (

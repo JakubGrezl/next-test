@@ -4,7 +4,7 @@ import headerItems from "../../public/header.json";
 
 export default function Header() {
 
-    let listItems = headerItems.data.map((i) => <Link className={styles.link} href={i.link}>{i.name}</Link>);
+    let listItems = headerItems.data.map((i) => <Link key={i.name} className={styles.link} href={i.link}>{i.name}</Link>);
 
     return (
         <header className={styles.main}>

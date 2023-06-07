@@ -4,34 +4,25 @@
       "href": [
         {
           "title": "jakub.grezl",
-          "href": "#"
+          "href": "https://www.instagram.com/grezl.jakub/"
         },
         {
           "title": "grezl.photos",
-          "href": "#"
+          "href": "https://www.instagram.com/grezl.photos/"
         }
       ]
     },
     {
-      "title": "github",
+      "title": "Github",
       "href": "https://github.com/JakubGrezl"
     },
     {
-      "title": "my school",
+      "title": "Moje škola",
       "href": "http://spsul.cz/"
     },
     {
         "title": "Email",
-        "href": [
-          {
-            "title": "jakub.grezl@outlook.cz",
-            "href": "jakub.grezl@outlook.cz"
-          },
-          {
-            "title": "grezl.jakub@gmail.com",
-            "href": "grezl.jakub@gmail.com"
-          }
-        ]
+        "href": "mailto:jakub.grezl@outlook.cz"
       }
 ]
   
