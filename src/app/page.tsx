@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <Container xl>
       <main className={styles.main}>
-        <h1>Tvojemama</h1>
+        <h1>chcispat(real)</h1>
       </main>
     </Container>
   )
