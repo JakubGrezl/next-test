@@ -1,0 +1,17 @@
+[
+    {
+        "title": "SPSUL DOCS",
+        "subtitle": "dokumentace stribrnické výuky",
+        "imageSrc": "https://docs.spsul.cz/img/spsul.webp",
+        "src": "https://docs.spsul.cz/",
+        "isBright": false
+
+    },
+    {
+        "title": "VIVUS",
+        "subtitle": "BOOTSTRAP stránka",
+        "imageSrc": "./webp.webp",
+        "src": "https://vivus.mrazzi.fun/",
+        "isBright": true
+    }
+]
