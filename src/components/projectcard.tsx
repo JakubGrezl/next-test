@@ -17,15 +17,15 @@ export default function ProjectCard(props : any) {
                 </Text>
             </Col>
             </Card.Header>
-            <Card.Image
-            css={{filter: cssLOL}}
-            src={props.imageSrc}
-            objectFit="cover"
-            width="100%"
-            height={340}
-            alt="Card image background"
-            />
-        </Card>
+                <Card.Image
+                css={{filter: cssLOL}}
+                src={props.imageSrc}
+                objectFit="cover"
+                width="100%"
+                height={340}
+                alt="Card image background"
+                />
+            </Card>
 
         </Link>
     )
